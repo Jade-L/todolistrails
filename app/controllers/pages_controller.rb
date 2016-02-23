@@ -1,4 +1,5 @@
 class PagesController < ApplicationController
-  def hom
+  def home
+    @tasks = Task.all
   end
 end
